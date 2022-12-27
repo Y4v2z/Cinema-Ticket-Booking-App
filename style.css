@@ -14,6 +14,11 @@ body{
     width: 25px;
     margin: 5px;
     border-radius: 5px;
+    color:cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .seat.selected{
     background: #f6eb6f;
@@ -34,6 +39,12 @@ body{
 
 .row{
     display: flex;
+}
+span{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    color: cadetblue;
 }
 .screen{
     height: 70px;
